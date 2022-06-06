@@ -377,7 +377,7 @@ elif selected == "Unlocked Mode":
 
         linesDeduped2 = []
 
-        MAX_LINES_FULL = 50
+        MAX_LINES_FULL = 200000
         text = st.text_area(
             "Enter keyphrases to classify",
             sample,
